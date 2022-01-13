@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "private": false,
   "author": "Lantz",
-  "main": "lib/flexible-date-picker.common.js",
+  "main": "lib/flexible-date-picker.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -11,6 +11,10 @@
     "lib": "vue-cli-service build --target lib --name flexible-date-picker --dest lib packages/index.js",
     "prepublish": "vue-cli-service build --target lib --name flexible-date-picker --dest lib packages/index.js"
   },
+ "keywords": [
+    "vue",
+    "ant-design-vue"
+  ],
   "dependencies": {
     "ant-design-vue": "^1.7.8",
     "core-js": "^3.6.5",
