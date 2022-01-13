@@ -1,0 +1,18 @@
+# 语法跟 .gitignore 一样
+.DS_Store
+node_modules/
+packages/
+public/
+src/
+vue.config.js
+babel.config.js
+ 
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+ 
+# Editor directories and files
+.idea
+.vscode
+.prettierrc
